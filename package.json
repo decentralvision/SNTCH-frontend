@@ -3,7 +3,7 @@
   "name": "cara",
   "description": "Playful and Colorful One-Page portfolio featuring Parallax effects and animations",
   "version": "0.2.10",
-  "author": "LekoArts <hello@lekoarts.de>",
+  "author": "closedLoop",
   "license": "0BSD",
   "starter-name": "gatsby-starter-portfolio-cara",
   "scripts": {
@@ -25,7 +25,9 @@
     "gatsby-plugin-offline": "^4.6.0",
     "gatsby-plugin-webpack-bundle-analyser-v2": "^1.1.22",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "typed.js": "^2.0.12",
+    "typewriter-effect": "^2.18.0"
   },
   "devDependencies": {
     "cross-env": "^7.0.3"

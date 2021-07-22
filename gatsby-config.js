@@ -63,16 +63,16 @@ module.exports = {
         lessBabel: true,
       },
     },
-    {
-      resolve: `gatsby-source-wordpress`,
-      options: {
-        /*
-         * The full URL of the WordPress site's GraphQL API.
-         * Example : 'https://www.example-site.com/graphql'
-         */
-        url: `https://wpgatsbydemo.wpengine.com/graphql`,
-      },
-    },
+    // {
+    //   resolve: `gatsby-source-wordpress`,
+    //   options: {
+    //     /*
+    //      * The full URL of the WordPress site's GraphQL API.
+    //      * Example : 'https://www.example-site.com/graphql'
+    //      */
+    //     url: `https://www.closedloop.design/graphql`,
+    //   },
+    // },
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-theme-ui`,
     shouldAnalyseBundle && {

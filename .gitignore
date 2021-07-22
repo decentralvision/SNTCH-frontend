@@ -67,3 +67,7 @@ public
 .idea
 .vscode
 .DS_Store
+
+#lockfile
+
+yarn.lock

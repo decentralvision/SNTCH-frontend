@@ -15,11 +15,8 @@ module.exports = {
     author: `closedLoop`
   },
   plugins: [
-    {
-      resolve: `@lekoarts/gatsby-theme-cara`,
-      // See the theme's README for all available options
-      options: {},
-    },
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
     googleAnalyticsTrackingId && {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
@@ -29,9 +26,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Cara - @lekoarts/gatsby-theme-cara`,
-        short_name: `Cara`,
-        description: `Playful and Colorful One-Page portfolio featuring Parallax effects and animations`,
+        name: `ClosedLoop design`,
+        short_name: `ClosedLoop`,
+        description: `ClosedLoop`,
         start_url: `/`,
         background_color: `#141821`,
         theme_color: `#f6ad55`,
@@ -53,6 +50,31 @@ module.exports = {
     `gatsby-plugin-offline`,
     `gatsby-plugin-gatsby-cloud`,
     `gatsby-plugin-netlify`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `sections`,
+        path: `${__dirname}/src/@lekoarts/gatsby-theme-cara/sections`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-mdx`,
+      options: {
+        lessBabel: true,
+      },
+    },
+    {
+      resolve: `gatsby-source-wordpress`,
+      options: {
+        /*
+         * The full URL of the WordPress site's GraphQL API.
+         * Example : 'https://www.example-site.com/graphql'
+         */
+        url: `https://wpgatsbydemo.wpengine.com/graphql`,
+      },
+    },
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-theme-ui`,
     shouldAnalyseBundle && {
       resolve: `gatsby-plugin-webpack-bundle-analyser-v2`,
       options: {

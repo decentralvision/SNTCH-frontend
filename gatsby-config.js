@@ -4,6 +4,7 @@ const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
 const googleAnalyticsTrackingId = process.env.GOOGLE_ANALYTICS_ID
 
 module.exports = {
+
   siteMetadata: {
     siteTitle: `SNTCH`,
     siteTitleAlt: `SNTCH`,
@@ -15,6 +16,7 @@ module.exports = {
     author: `SNTCH`
   },
   plugins: [
+  `gatsby-plugin-fontawesome-css`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     googleAnalyticsTrackingId && {

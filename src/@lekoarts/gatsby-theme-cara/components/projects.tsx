@@ -35,23 +35,23 @@ const Projects = ({ offset, factor = 2 }: { offset: number; factor?: number }) =
       <UpDown>
         <Svg icon="circle" width={6} color="icon_brightest" left="85%" top="75%" />
         <Svg icon="circle" width={8} color="icon_teal" left="70%" top="20%" />
-        <Svg icon="circle" width={8}  color="icon_orange" left="25%" top="5%" />
+        <Svg icon="circle" width={8}  color="icon_red" left="25%" top="5%" />
         <Svg icon="circle" hiddenMobile width={24} color="icon_brightest" left="17%" top="60%" />
       </UpDown>
       <UpDownWide>
-        <Svg icon="circle" hiddenMobile width={16} color="icon_green" left="20%" top="90%" />
+        <Svg icon="circle" hiddenMobile width={16} color="icon_brightest" left="20%" top="90%" />
         <Svg icon="circle" width={12}  color="icon_brightest" left="90%" top="30%" />
-        <Svg icon="circle" width={16} color="icon_yellow" left="70%" top="90%" />
+        <Svg icon="circle" width={16} color="icon_brightest" left="70%" top="90%" />
         <Svg icon="circle" hiddenMobile width={16}  color="icon_teal" left="18%" top="75%" />
         <Svg icon="circle" width={6} color="icon_brightest" left="75%" top="10%" />
-        <Svg icon="circle" hiddenMobile width={8} color="icon_green" left="45%" top="10%" />
+        <Svg icon="circle" hiddenMobile width={8} color="icon_brightest" left="45%" top="10%" />
       </UpDownWide>
       <Svg icon="circle" hiddenMobile width={6} color="icon_brightest" left="4%" top="20%" />
-      <Svg icon="circle" width={12} color="icon_pink" left="80%" top="60%" />
-      <Svg icon="circle" width={6} color="icon_orange" left="10%" top="10%" />
-      <Svg icon="circle" width={12} color="icon_yellow" left="29%" top="26%" />
+      <Svg icon="circle" width={12} color="icon_darkred" left="80%" top="60%" />
+      <Svg icon="circle" width={6} color="icon_red" left="10%" top="10%" />
+      <Svg icon="circle" width={12} color="icon_brightest" left="29%" top="26%" />
       <Svg icon="circle" width={16}  color="icon_red" left="75%" top="30%" />
-      <Svg icon="circle" width={8}  color="icon_yellow" left="80%" top="70%" />
+      <Svg icon="circle" width={8}  color="icon_brightest" left="80%" top="70%" />
     </Divider>
   </div>
 )

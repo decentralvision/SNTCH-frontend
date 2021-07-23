@@ -26,9 +26,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `ClosedLoop design`,
-        short_name: `ClosedLoop`,
-        description: `ClosedLoop`,
+        name: `sntch`,
+        short_name: `sntch`,
+        description: `sntch`,
         start_url: `/`,
         background_color: `#141821`,
         theme_color: `#f6ad55`,
@@ -70,7 +70,7 @@ module.exports = {
     //      * The full URL of the WordPress site's GraphQL API.
     //      * Example : 'https://www.example-site.com/graphql'
     //      */
-    //     url: `https://www.closedloop.design/graphql`,
+    //     url: `https://www.sntch.design/graphql`,
     //   },
     // },
     `gatsby-plugin-react-helmet`,

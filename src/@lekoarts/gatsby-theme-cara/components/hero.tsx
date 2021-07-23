@@ -14,7 +14,7 @@ const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
   <div>
     <Divider speed={0.2} offset={offset} factor={factor}>
       <UpDown>
-        <Svg icon="circle" hiddenMobile width={48} color="icon_blue" left="10%" top="20%" />
+        <Svg icon="circle" hiddenMobile width={48} color="icon_red" left="10%" top="20%" />
         <Svg icon="circle" width={48} color="icon_darker" left="60%" top="70%" />
         <Svg icon="circle" width={6} color="icon_darker" left="60%" top="15%" />
       </UpDown>
@@ -33,8 +33,8 @@ const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
       <Svg icon="circle" width={8} color="icon_darkest" left="95%" top="90%" />
       <Svg icon="circle" hiddenMobile width={24} color="icon_darker" left="40%" top="80%" />
       <Svg icon="circle" width={8} color="icon_darker" left="25%" top="5%" />
-      <Svg icon="circle" width={64} color="icon_blue" left="95%" top="5%" />
-      <Svg icon="circle" hiddenMobile width={64} color="icon_purple" left="5%" top="90%" />
+      <Svg icon="circle" width={64} color="icon_brightest" left="95%" top="5%" />
+      <Svg icon="circle" hiddenMobile width={64} color="icon_darkred" left="5%" top="90%" />
       <Svg icon="circle" width={6} color="icon_darkest" left="10%" top="10%" />
       <Svg icon="circle" width={12} color="icon_darkest" left="40%" top="30%" />
       <Svg icon="circle" width={16} color="icon_darker" left="10%" top="50%" />
@@ -54,13 +54,23 @@ const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
             cursor: '',
             pauseFor: 10000,
             deleteSpeed: 5,
-            delay: 5,
+            delay: 300,
           }}
         />
         </h1>
         </LeftRight>
         <LeftRightWide>
-        <Intro />
+        <Typewriter
+          options={{
+            strings: ["crime reporting with social justice in mind", "the most comprehensive background check available ", "powered by AI, blockchain, and crowd sourced data"],
+            autoStart: true,
+            loop: true,
+            cursor: '',
+            pauseFor: 1000,
+            deleteSpeed: 1,
+            delay: 5,
+          }}
+        />
         </LeftRightWide>
       </Inner>
     </Content>

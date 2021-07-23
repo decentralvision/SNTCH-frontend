@@ -12,10 +12,10 @@
     "clean": "gatsby clean"
   },
   "private": true,
-  "name": "closedLoop",
-  "description": "closedLoop",
+  "name": "sntch",
+  "description": "sntch",
   "version": "0.2.10",
-  "author": "closedLoop",
+  "author": "sntch",
   "license": "0BSD",
   "dependencies": {
     "@mdx-js/mdx": "^1.6.22",

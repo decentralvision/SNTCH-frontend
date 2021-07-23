@@ -22,7 +22,7 @@ const About = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
         <Svg icon="circle" hiddenMobile width={6} color="icon_brightest" left="50%" top="75%" />
         <Svg icon="circle" hiddenMobile width={8} color="icon_darkest" left="70%" top="20%" />
         <Svg icon="circle" width={8}  color="icon_darkest" left="25%" top="5%" />
-        <Svg icon="circle" hiddenMobile width={24} color="icon_red" left="80%" top="80%" />
+        <Svg icon="circle" hiddenMobile width={24} color="black" left="80%" top="80%" />
       </UpDown>
       <UpDownWide>
         <Svg icon="circle" hiddenMobile width={16} color="icon_darkred" left="5%" top="80%" />
@@ -32,7 +32,7 @@ const About = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
       </UpDownWide>
       <Svg icon="circle" hiddenMobile width={6} color="icon_brightest" left="4%" top="20%" />
       <Svg icon="circle" width={12} color="icon_darkest" left="70%" top="60%" />
-      <Svg icon="circle" width={6} color="icon_red" left="10%" top="10%" />
+      <Svg icon="circle" width={6} color="black" left="10%" top="10%" />
       <Svg icon="circle" width={12} color="icon_darkest" left="20%" top="30%" />
       <Svg icon="circle" width={8}  color="icon_darkest" left="80%" top="70%" />
     </Divider>

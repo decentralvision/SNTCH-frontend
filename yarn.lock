@@ -12692,6 +12692,13 @@ raf@^3.4.0:
   dependencies:
     performance-now "^2.1.0"
 
+random-shapes@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/random-shapes/-/random-shapes-0.2.1.tgz#daf5df15d9985cde9d52591ef1a4c2e68b57ac97"
+  integrity sha512-zY+Z+bKNKU0uY9r+PrVQ198NzLnrDjGUpTDoN+alUNTM5T2EYFoCLuOnmdhH+tJwnjN/SQ06cn1FD6SeYN1CiQ==
+  dependencies:
+    seedrandom "^3.0.5"
+
 randombytes@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/randombytes/-/randombytes-2.1.0.tgz#df6f84372f0270dc65cdf6291349ab7a473d4f2a"
@@ -12826,6 +12833,13 @@ react-merge-refs@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/react-merge-refs/-/react-merge-refs-1.1.0.tgz#73d88b892c6c68cbb7a66e0800faa374f4c38b06"
   integrity sha512-alTKsjEL0dKH/ru1Iyn7vliS2QRcBp9zZPGoWxUOvRGWPUYgjo+V01is7p04It6KhgrzhJGnIj9GgX8W4bZoCQ==
+
+react-random-shapes@^0.6.0:
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/react-random-shapes/-/react-random-shapes-0.6.0.tgz#4d7871bc34247c6b7d48f37745c91408bb83815b"
+  integrity sha512-9jzivuss/q2j+pqD3U1uz/GkZJ3FW5HWCvNoIN6XxW9enf58I18PyUSt+VaulIZQQUT3ZL5HXDMplFremKJ8gA==
+  dependencies:
+    random-shapes "^0.2.1"
 
 react-refresh@^0.9.0:
   version "0.9.0"
@@ -13599,6 +13613,11 @@ section-matter@^1.0.0:
   dependencies:
     extend-shallow "^2.0.1"
     kind-of "^6.0.0"
+
+seedrandom@^3.0.5:
+  version "3.0.5"
+  resolved "https://registry.yarnpkg.com/seedrandom/-/seedrandom-3.0.5.tgz#54edc85c95222525b0c7a6f6b3543d8e0b3aa0a7"
+  integrity sha512-8OwmbklUNzwezjGInmZ+2clQmExQPvomqjL7LFqOYqtmuxRgQYqOD3mHaU+MvZn5FLUeVxVfQjwLZW/n/JFuqg==
 
 seek-bzip@^1.0.5:
   version "1.0.6"

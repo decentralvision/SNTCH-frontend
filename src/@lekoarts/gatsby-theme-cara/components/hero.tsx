@@ -8,13 +8,15 @@ import { LeftRightWide, LeftRight, UpDown, UpDownWide } from "../styles/animatio
 // @ts-ignore
 import Intro from "../sections/intro"
 import Typewriter from 'typewriter-effect'
+
+
 const introHTML = < Intro/>
 
 const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
   <div>
     <Divider speed={0.2} offset={offset} factor={factor}>
       <UpDown>
-        <Svg icon="circle" hiddenMobile width={48} color="icon_red" left="10%" top="20%" />
+        <Svg icon="circle" hiddenMobile width={48} color="black" left="10%" top="20%" />
         <Svg icon="circle" width={48} color="icon_darker" left="60%" top="70%" />
         <Svg icon="circle" width={6} color="icon_darker" left="60%" top="15%" />
       </UpDown>
@@ -62,7 +64,7 @@ const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
         <LeftRightWide>
         <Typewriter
           options={{
-            strings: ["crime reporting with social justice in mind", "the most comprehensive background check available ", "powered by AI, blockchain, and crowd sourced data"],
+            strings: ["immutable crime reporting", "the most comprehensive background reports available to the public", "powered by AI, blockchain, and people"],
             autoStart: true,
             loop: true,
             cursor: '',

@@ -5,14 +5,14 @@ const googleAnalyticsTrackingId = process.env.GOOGLE_ANALYTICS_ID
 
 module.exports = {
   siteMetadata: {
-    siteTitle: `closedLoop`,
-    siteTitleAlt: `closedLoop`,
-    siteHeadline: `closedLoop`,
-    siteUrl: `https://closedloop.design`,
+    siteTitle: `SNTCH`,
+    siteTitleAlt: `SNTCH`,
+    siteHeadline: `SNTCH`,
+    siteUrl: `https://sntch.io`,
     siteDescription: `Custom template`,
     siteLanguage: `en`,
     siteImage: `/banner.jpg`,
-    author: `closedLoop`
+    author: `SNTCH`
   },
   plugins: [
     `gatsby-plugin-sharp`,

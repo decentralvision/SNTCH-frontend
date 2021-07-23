@@ -1,11 +1,8 @@
 {
-  "private": true,
-  "name": "closedLoop",
-  "description": "closedLoop",
-  "version": "0.2.10",
-  "author": "closedLoop",
-  "license": "0BSD",
   "scripts": {
+    "layer0:dev": "layer0 dev",
+    "layer0:build": "layer0 build",
+    "layer0:deploy": "gatsby clean && layer0 deploy",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "develop:cypress": "cross-env CYPRESS_SUPPORT=y yarn develop",
@@ -14,10 +11,17 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean"
   },
+  "private": true,
+  "name": "closedLoop",
+  "description": "closedLoop",
+  "version": "0.2.10",
+  "author": "closedLoop",
+  "license": "0BSD",
   "dependencies": {
     "@mdx-js/mdx": "^1.6.22",
     "@react-spring/parallax": "^9.2.4",
     "@theme-ui/presets": "^0.10.0",
+    "@theme-ui/sidenav": "^0.10.0",
     "gatsby": "^3.6.1",
     "gatsby-plugin-gatsby-cloud": "^2.6.1",
     "gatsby-plugin-google-analytics": "^3.6.0",
@@ -43,6 +47,12 @@
     "typewriter-effect": "^2.18.0"
   },
   "devDependencies": {
+    "@layer0/cli": "^3.16.2",
+    "@layer0/core": "^3.16.2",
+    "@layer0/devtools": "^3.16.2",
+    "@layer0/gatsby": "^3.16.2",
+    "@layer0/prefetch": "^3.16.2",
+    "@layer0/react": "^3.16.2",
     "cross-env": "^7.0.3"
   }
 }

@@ -48,13 +48,13 @@ const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
           <h1>
         <Typewriter
           options={{
-            strings: ['closed L∞p'],
+            strings: ['SNTCH'],
             autoStart: true,
             loop: true,
-            cursor: '.',
+            cursor: '',
             pauseFor: 10000,
-            deleteSpeed: 70,
-            delay: 18,
+            deleteSpeed: 5,
+            delay: 5,
           }}
         />
         </h1>

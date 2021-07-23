@@ -70,4 +70,5 @@ public
 
 #lockfile
 
-yarn.lock
+yarn.lock# Layer0 generated build directory
+.layer0

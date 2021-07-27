@@ -44,11 +44,13 @@
     "locomotive-scroll": "^4.1.1",
     "random-shapes": "^0.2.1",
     "react": "^17.0.2",
+    "react-animated-css": "^1.2.1",
     "react-burger-menu": "^3.0.6",
     "react-dom": "^17.0.2",
     "react-helmet": "^6.1.0",
     "react-random-shapes": "^0.6.0",
     "react-spring": "^9.2.4",
+    "react-transition-group": "1.x",
     "theme-ui": "^0.10.0",
     "typed.js": "^2.0.12",
     "typewriter-effect": "^2.18.0"

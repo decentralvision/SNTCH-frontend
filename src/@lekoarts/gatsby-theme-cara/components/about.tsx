@@ -6,9 +6,14 @@ import Svg from "./svg"
 import { UpDown, UpDownWide } from "../styles/animations"
 // @ts-ignore
 import AboutMDX from "../sections/about"
+import {Animated} from "react-animated-css";
+
+
+
 
 
 const About = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
+  <Animated animationIn="fadeInLeft" animationOut="fadeOutLeft" animationInDuration={1400} animationOutDuration={1400} isVisible={false}>
   <div>
     <Divider
       bg="divider"
@@ -36,12 +41,18 @@ const About = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
       <Svg icon="circle" width={12} color="icon_darkest" left="20%" top="30%" />
       <Svg icon="circle" width={8}  color="icon_darkest" left="80%" top="70%" />
     </Divider>
+    
     <Content speed={0.4} offset={offset} factor={factor}>
-      <Inner>
-        <AboutMDX />
+      <Inner>        
+      
+          <AboutMDX />
+        
       </Inner>
     </Content>
+    
   </div>
+  </Animated>
 )
+
 
 export default About

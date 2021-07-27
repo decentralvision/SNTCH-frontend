@@ -36,7 +36,7 @@ const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
       <Svg icon="circle" hiddenMobile width={24} color="icon_darker" left="40%" top="80%" />
       <Svg icon="circle" width={8} color="icon_darker" left="25%" top="5%" />
       <Svg icon="circle" width={64} color="icon_brightest" left="95%" top="5%" />
-      <Svg icon="circle" hiddenMobile width={64} color="icon_darkred" left="5%" top="90%" />
+      <Svg icon="circle" width={64} color="icon_darkred" left="5%" top="90%" />
       <Svg icon="circle" width={6} color="icon_darkest" left="10%" top="10%" />
       <Svg icon="circle" width={12} color="icon_darkest" left="40%" top="30%" />
       <Svg icon="circle" width={16} color="icon_darker" left="10%" top="50%" />
@@ -54,8 +54,8 @@ const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
             autoStart: true,
             loop: true,
             cursor: '',
-            pauseFor: 10000,
-            deleteSpeed: 5,
+            pauseFor: 15000,
+            deleteSpeed: 1,
             delay: 300,
           }}
         />
@@ -64,13 +64,13 @@ const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
         <LeftRightWide>
         <Typewriter
           options={{
-            strings: ["immutable crime reporting", "the most comprehensive background reports available to the public", "powered by AI, blockchain, and people"],
+            strings: ["the best background check available without Federal clearance", "get paid to report crime", "powered by AI, blockchain, and people like you"],
             autoStart: true,
             loop: true,
             cursor: '',
-            pauseFor: 1000,
+            pauseFor: 2000,
             deleteSpeed: 1,
-            delay: 5,
+            delay: 1,
           }}
         />
         </LeftRightWide>
